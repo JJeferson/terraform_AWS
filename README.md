@@ -23,7 +23,7 @@ terraform fmt </br>
 
 
 ## Execução
--Navegue até a pasta do projeto</br>
+-Navegue até a pasta do projeto, exemplo:</br>
 ```
 cd\buckets3
 ```
