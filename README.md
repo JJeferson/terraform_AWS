@@ -24,14 +24,14 @@ terraform fmt </br>
 
 ## Execução
 -Navegue até a pasta do projeto</br>
-'''
+```
 terraform init
-'''
+```
 -Execute o comando de execução</br>
-'''
+```
 terraform apply -var="chave=aqui sua chave" -var="segredo=aqui seu segredo"
-'''
+```
 -Para apagar o recurso após conferir se deu certo
-'''
+```
 terraform destroy -var="chave=aqui sua chave" -var="segredo=aqui seu segredo"
-''' 
+``` 
