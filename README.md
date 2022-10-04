@@ -20,7 +20,7 @@ terraform apply </br>
 terraform destroy </br>
 #Identa seu codigo </br>
 terraform fmt </br>
-
+terraform output nome_da_variavel_output </br> (exibe no console a variavel)
 
 ## Execução
 -Navegue até a pasta do projeto, exemplo:</br>
