@@ -26,5 +26,10 @@ resource "aws_s3_bucket" "primeiro_bucket" {
 
 }
 
+output "id_bucket_criado" {
+  value       = aws_s3_bucket.primeiro_bucket.id
+  description = "id do Bucket"
+}
+
 
 
