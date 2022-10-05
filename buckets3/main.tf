@@ -6,6 +6,7 @@ terraform {
       source  = "hashicorp/aws"
     }
   }
+  
 }
 
 provider "aws" {
@@ -23,7 +24,13 @@ provider "aws" {
 
 resource "aws_s3_bucket" "primeiro_bucket" {
   bucket = "exemplo1-jef"
+}
 
+resource "aws_s3_bucket" "armazena-remote-state" {
+  bucket = "armazena-remote-state-remote"
+  versioning{
+    enabled=true
+  }
 }
 
 output "id_bucket_criado" {
